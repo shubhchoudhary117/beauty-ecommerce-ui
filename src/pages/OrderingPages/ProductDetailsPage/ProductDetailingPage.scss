@@ -1,0 +1,31 @@
+.product-detailing-page_{
+    width: 100%;
+    min-height: 80vh;
+}
+.product-detailing-page-container_{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.pd-product-images-section_{
+    width: 45%;
+}
+.pd-product-details-section_{
+    width: 45%;
+}
+.pd-product-details-section-container_{
+    width: 100%;
+}
+.pd-product-details-section-header_{
+    width: 100%;
+    padding: 10px 0px;
+}
+.pd-other-pages-links_{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.pd-other-page-link_{
+    text-decoration: none;
+}

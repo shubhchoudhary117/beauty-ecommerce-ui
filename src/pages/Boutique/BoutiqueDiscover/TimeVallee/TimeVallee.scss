@@ -1,0 +1,130 @@
+.timevallee-brand-products-section_{
+    min-height: 80vh;
+}
+.timevallee-brands-products-section-container_{
+    width: 100%;
+}
+.timevallee-brands-main-banner-carousel_{
+    width: 80%;
+    margin: auto;
+}
+.timevallee-brand-banner_{
+    width: 100%;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+// Explore maisons products section --------------------------
+.explore-maisons-section_{
+    width: 100%;
+    margin-top: 20px;
+}
+.explore-maisons-section-container_{
+    width: 100%;
+}
+.explore-maisons-heading_{
+    width: 300px;
+    margin: auto;
+}
+.explore-maisons-heading-img_{
+    width: 100%;
+    height: 70px;
+    object-fit: cover;
+}
+
+.explore-maisons-products-carousel_{
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.explore-maisons-product_{
+    width: 80%;
+    height: 350px;
+    margin: auto;
+}
+.explore-maisons-product-img_{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+// Best sellers section -------------------
+.best-sellers-section_{
+    width: 100%;
+    margin-top: 20px;
+}
+.best-sellers-section-container_{
+    width: 100%;
+}
+
+.best-sellers-section-heading__{
+    width: 300px;
+    margin: auto;
+}
+.best-sellers-section-heading-img_{
+    width: 100%;
+    height: 70px;
+    object-fit: cover;
+}
+
+.best-sellers-products-carousel_{
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.bets-seller-product_{
+    width: 350px;
+    margin-bottom:30px;
+}
+.best-seller-product-img_{
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+}
+.product-content_{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+}
+.product-title_{
+    color: #33312e;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0 0 5px;
+    text-transform: uppercase;
+}
+.product-details-text_{
+    max-width: 90%;
+    margin: auto;
+    text-align: center;
+    color: #33312e;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: none;
+    line-height: 19px;
+}
+.discover-btn_{
+    margin-top: 10px;
+    border: 2px solid #33312e;
+    border-radius: 3px;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 1.5;
+    min-width: 125px;
+    padding: 5px 10px;
+    background-color: transparent;
+    text-transform: uppercase;
+}

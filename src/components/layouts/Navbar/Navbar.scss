@@ -1,0 +1,229 @@
+$navlogocolor:#33312e;
+$dividercolor:#818181;
+.header_{
+    width: 100%;
+    position: sticky;
+    top: 0px;
+    z-index: 99999;
+    background-color: #fff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.nav_{
+    width: 98%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.parent-header_{
+    width: 100%;
+    border-bottom: 1px solid #e8e8e8;
+    padding-bottom: 5px;
+}
+
+.left-content_{
+    display: flex;
+    align-items: center;
+}
+.nav-logo_{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: $navlogocolor;
+  
+}
+
+.nav-logo-divider_{
+    width: 1px;
+    height: 30px;
+    background-color:$dividercolor;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.brand-name_{
+    .link_{
+        text-decoration: none;
+        color: #818181;
+        display: block;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 28px;
+        text-align: center;
+        text-transform: uppercase;
+        transition: all .05s;
+    }
+}
+
+
+.right-content_{
+    display: flex;
+    align-items: center;
+}
+
+.actions_{
+    display: flex;
+    align-items: center;
+
+    .action_{
+        text-decoration: none;
+        margin: 0px 13px;
+
+        .icon_{
+            color: #686868 !important;
+            font-size: 25px !important;
+        }
+    }
+}
+  
+
+.mid-content_{
+    display: flex;
+    align-items: center;
+}
+.mid-logo_{
+    /* TATA */
+  .logo-tata {
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #000;
+    text-transform: uppercase;
+  }
+
+/* Container to group everything */
+.logo-container {
+    margin-top: 4px;
+    display: inline-block; 
+    text-align: center;
+    font-family: Arial, sans-serif; 
+  }
+  
+  /* Main row: TATA + CLiQ + LUXURY */
+  .logo-main {
+    font-weight: bold;
+    font-size: 16px; 
+    color: #000; 
+    letter-spacing: 0.05em;
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem; 
+  }
+  /* CLiQ */
+  .logo-cliq {
+    text-transform: uppercase;
+    position: relative;
+    font-size: 17px;
+  }
+  
+  /* The "i" in "CLiQ" with a custom colored dot */
+  .logo-cliq-i {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Create a purple dot above the 'i' */
+  .logo-cliq-i::after {
+    content: "";
+    position: absolute;
+    top: -4px; 
+    left: 50%;
+    transform: translateX(-50%);
+    width: 4px;
+    height: 4px;
+    background-color: #6d5efc; 
+    border-radius: 50%;
+  }
+  
+  /* LUXURY */
+  .logo-luxury {
+    text-transform: uppercase;
+  }
+  
+  /* Tagline row */
+  .logo-tagline {
+    margin-top: 3px;
+    font-size: 7px; 
+    color: #6969b8;
+    letter-spacing: 1.5px;
+  }
+  
+}
+
+
+// Sub header---------------------
+.sub-header_{
+    width: 100%;
+    position: relative;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #e8e8e8;
+}
+.sub-header-list_{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu_{
+    color: #33312e;
+    display: block;
+    font-size: 14px;
+    font-weight: 300;
+    padding:0px 15px;
+    position: relative;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+
+// Menus list container--------------
+.active-menu-menus-listing_{
+  width: 100%;
+  height:400px;
+  background-color: #fff;
+  position: absolute;
+  top: 50px;
+  left: 0px;
+  z-index: 999;
+  border-bottom: 1px solid #e8e8e8;
+  overflow: auto;
+  overflow-x: scroll;
+}
+.active-menu-menus-container_{
+  padding-top: 17px;
+}
+
+.active-menu-menus-list_{
+  display: flex;
+  align-items: start;
+  justify-content: space-around;
+}
+.active-menus-menu_{
+text-align: start;
+}
+.active-menu-menus-category_{
+  font-size: 15px;
+  color: #33312e;
+  cursor: pointer;
+  transition: color 0.05s ease-in;
+    &:hover{
+      color: #c27500;
+    }
+}
+.active-menu-menus-menu_{
+  color: #33312e;
+    display: block;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 8px 0px;
+    position: relative;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: color 0.05s ease-in;
+
+    &:hover{
+      color: #c27500;
+      font-weight: 400;
+    }
+}

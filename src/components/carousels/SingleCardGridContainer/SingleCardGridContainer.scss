@@ -1,0 +1,36 @@
+
+// boutique banners section------
+.single-card-grid-section_{
+    width: 100%;
+    margin-top: 40px;
+}
+.single-card-grid-container_{
+    width: 100%;
+}
+.single-card-grid-heading_{
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    color:#33312e;
+    text-transform: capitalize;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+.single-card-grid-carousel_{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.single-card-grid-banner_{
+    width: 80%;
+    img{
+        width: 100%;
+        height: auto;
+        object-fit:cover;
+    }
+}
+
+
